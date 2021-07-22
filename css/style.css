@@ -1,0 +1,11 @@
+.container-fluid {
+	width: 400px;
+	padding: 20px 30px;
+}
+.settime {
+	width: 65px;
+	border: 1px solid #bdbdbd;
+}
+.btun-control {
+	margin-top: 10px;
+}

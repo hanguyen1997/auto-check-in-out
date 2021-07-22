@@ -1,0 +1,91 @@
+<html>
+<head>
+  <title>Đăng Kí Nhận Lúa</title>
+  <meta charset="UTF-8" />
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/mdb.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <h1 id="content" class="mb-3">Đăng Kí Nhận Lúa</h1>
+      <form>
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form1Example1" class="form-control" />
+          <label class="form-label" for="form1Example1">Email</label>
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="password" id="form1Example2" class="form-control" />
+          <label class="form-label" for="form1Example2">Password</label>
+        </div>
+
+        <div>
+          <h4>Thời gian:</h4>
+          <div class="input-group time mb-3">
+              <input type="text" class="settime" id="time-start" value="08:00" class="form-control"
+                  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              &nbsp; - &nbsp;
+              <input type="text" class="settime" id="time-end" value="17:30" class="form-control"
+                  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <div>
+          <h4>Chọn ngày nhận lúa</h4>
+          <div class="form-check">
+              <input class="form-check-input" data-index="0" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                  Thứ 2
+              </label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" data-index="1" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                  Thứ 3
+              </label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" data-index="2" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                  Thứ 4
+              </label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" data-index="3" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                  Thứ 5
+              </label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" data-index="4" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                  Thứ 6
+              </label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" data-index="5" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                  Thứ 7
+              </label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" data-index="6" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                  Chủ Nhật
+              </label>
+          </div>
+        </div>
+        <!-- Submit button -->
+        <div class="btun-control">
+          <button type="submit" class="btn btn-primary btn-block">Lượm Lúa</button>
+          <button type="submit" class="btn btn-block" id="button-close">Huỷ</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+</html>

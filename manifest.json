@@ -1,0 +1,12 @@
+{
+  "name": "Auto check in & out",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon/icon16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.giphy.com/"
+  ],
+  "manifest_version": 2
+}
