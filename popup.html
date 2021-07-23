@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Đăng Kí Nhận Lúa</title>
+  <title>Auto Nhận Lúa</title>
   <meta charset="UTF-8" />
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/mdb.min.css">
@@ -9,28 +9,30 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <h1 id="content" class="mb-3">Đăng Kí Nhận Lúa</h1>
+      <h1 id="content" class="mb-3">Auto Nhận Lúa</h1>
       <form>
+
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="form1Example1" class="form-control" />
-          <label class="form-label" for="form1Example1">Email</label>
+          <input type="email" id="email" class="form-control" />
+          <label class="form-label" for="email">Email</label>
         </div>
 
         <!-- Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="form1Example2" class="form-control" />
-          <label class="form-label" for="form1Example2">Password</label>
+          <input type="password" id="password" class="form-control" />
+          <label class="form-label" for="Password">Password</label>
         </div>
+
+        <!-- message -->
+        <div id="message" class="mt-2 mb-2"></div>
 
         <div>
           <h4>Thời gian:</h4>
           <div class="input-group time mb-3">
-              <input type="text" class="settime" id="time-start" value="08:00" class="form-control"
-                  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="settime" id="time-start" value="07:29" class="form-control" aria-describedby="basic-addon1">
               &nbsp; - &nbsp;
-              <input type="text" class="settime" id="time-end" value="17:30" class="form-control"
-                  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="settime" id="time-end" value="17:31" class="form-control" aria-describedby="basic-addon1">
           </div>
         </div>
         <div>
@@ -80,12 +82,14 @@
         </div>
         <!-- Submit button -->
         <div class="btun-control">
-          <button type="submit" class="btn btn-primary btn-block">Lượm Lúa</button>
-          <button type="submit" class="btn btn-block" id="button-close">Huỷ</button>
+          <button type="button" class="btn btn-primary btn-block" id="btn-save">Lượm Lúa</button>
+          <button type="button" class="btn btn-block" id="btn-close">Huỷ</button>
         </div>
       </form>
     </div>
   </div>
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/imask.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
