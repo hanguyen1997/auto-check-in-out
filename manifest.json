@@ -6,7 +6,7 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "http://api.giphy.com/"
+    "storage"
   ],
   "manifest_version": 2
 }
